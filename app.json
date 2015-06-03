@@ -1,0 +1,9 @@
+{
+  "name": "cuba-boilerplate",
+  "description": "cuba boilerplate",
+  "repository": "https://github.com/LuckyThirteen/cuba-boilerplate",
+  "keywords": ["cuba", "sequel"],
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  }
+}
